@@ -1,16 +1,20 @@
+
 #include "Zombie.hpp"
+#include <string>
 
-void randomChump( std::string name ) {
-	Zombie zombie(name);
-	zombie.announce();
+Zombie::Zombie() : name("Unnamed") {}
+
+Zombie::Zombie(std::string _name) : name(_name) {}
+
+Zombie::~Zombie() {
+	std::cout << name << " has been destroyed." << std::endl;
 }
 
-Zombie* newZombie( std::string name ){
-
-	Zombie *zombie = new Zombie(name);
-	return zombie;
+void	Zombie::setName(std::string name) {
+	this->name = name;
 }
 
-void Zombie:: announce( void ) {
+void	Zombie::announce( void ) {
 	std::cout << name << ": BraiiiiiiinnnzzzZ..." << std::endl;
 }
+

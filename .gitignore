@@ -1,0 +1,10 @@
+# Object files
+*.o
+
+# Executables
+zombie
+zombieHorde
+
+# IDE/Editor files
+.vscode/
+.DS_Store
