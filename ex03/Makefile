@@ -1,13 +1,13 @@
-NAME = zombieHorde
-
+NAME = warmup
 CXX = c++
 
 CXXFLAGS = -Wall -Wextra -Werror -std=c++98
 
-SRCS = main.cpp Zombie.cpp zombieHorde.cpp
-OBJS = $(SRCS:.cpp=.o)
+SRCS = Weapon.cpp HumanA.cpp HumanB.cpp main.cpp
 
-HEADERS = Zombie.hpp
+HEADERS = Weapon.hpp HumanA.hpp HumanB.hpp
+
+OBJS = $(SRCS:.cpp=.o)
 
 all: $(NAME)
 

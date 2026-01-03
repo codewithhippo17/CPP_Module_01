@@ -4,6 +4,9 @@
 # Executables
 zombie
 zombieHorde
+brainz
+warmup
+sed
 
 # IDE/Editor files
 .vscode/
