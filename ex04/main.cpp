@@ -1,4 +1,4 @@
-#include "sed.hpp"
+#include "sed.h"
 
 std::string ft_sed(std::string line, std::string pattern,
                    std::string replacement) {

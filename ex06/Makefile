@@ -1,12 +1,12 @@
-NAME = sed
+NAME = harlFilter
 
 CXX = c++
 
 CXXFLAGS = -Wall -Wextra -Werror -std=c++98
 
-SRCS = main.cpp
+SRCS = main.cpp Harl.cpp
 
-HEADERS = Sed.h
+HEADERS = Harl.hpp
 
 OBJS = $(SRCS:.cpp=.o)
 

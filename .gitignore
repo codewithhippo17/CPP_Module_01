@@ -10,6 +10,7 @@ sed
 file
 file.replace
 harl
+harlFilter
 
 # IDE/Editor files
 .vscode/
