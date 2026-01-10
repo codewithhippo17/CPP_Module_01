@@ -7,6 +7,9 @@ zombieHorde
 brainz
 warmup
 sed
+file
+file.replace
+harl
 
 # IDE/Editor files
 .vscode/
